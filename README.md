@@ -5,10 +5,13 @@ Installation
 Download whole package. Heat rating
 Extract to your project folder.
 Two js and one css are required 
-JS: 
+JS:
+##### Code:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script type="text/javascript" src="path/to/your/folder/heat-rating.js"></script> 
-CSS: 
+
+CSS:
+##### Code:
 <link rel="stylesheet" type="text/css" href="path/to/your/folder/heat-rating.css">
 And at last, you need to just put HTML code wherever you want heat rating.	
 <div class="heat-rating"> 
@@ -25,3 +28,12 @@ And at last, you need to just put HTML code wherever you want heat rating.
 <input type="hidden" value="0.0" id="ratings-input"> 
 </div>
 Enjoy heating!
+
+
+> For more information email me at dabhi.sarthak@gmail.com
+
+> Website: [sarthakdabhi.me](http://sarthakdabhi.me) 
+
+> LinkedIn: [https://www.linkedin.com/in/sarthakdabhi](https://www.linkedin.com/in/sarthakdabhi)
+
+> Twitter: [@SarthakDabhi](https://twitter.com/SarthakDabhi)
