@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Heat Rating</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/heat-rating.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3 text-center">
+  				<h1>Heat rating</h1>
+  				<span class="text-muted small">By <a href="http://sarthakdabhi.me/" target="_blank">Sarthak Dabhi</a></span>
+  				<hr>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3">
+
+  				<div class="heat-rating">
+  					<div class="rating-block one" data-value="1.0"></div>
+  					<div class="rating-block one-half" data-value="1.5"></div>
+  					<div class="rating-block two" data-value="2.0"></div>
+  					<div class="rating-block two-half" data-value="2.5"></div>
+  					<div class="rating-block three" data-value="3.0"></div>
+  					<div class="rating-block three-half" data-value="3.5"></div>
+  					<div class="rating-block four" data-value="4.0"></div>
+  					<div class="rating-block four-half" data-value="4.5"></div>
+  					<div class="rating-block five" data-value="5.0"></div>
+  					<div class="ratings">0.0</div>
+  					<input type="hidden" value="4.5" id="ratings-input">
+  				</div>
+
+  			</div>
+  		</div>
+
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3">
+  				<hr>
+  				<p class="text-info">
+  					Heat rating, is a simple rating system plugin, that handles 1 to 5 rating with 0.5 fraction.
+  					Made with simple jQuery, HTML and CSS. Highly customizable, with its style and effect.
+  				</p>
+  				<label>Installation</label>
+  				<p class="text-muted">
+  					<ol>
+  						<li>Download whole package. <a href="https://github.com/sarthakdabhi/heat-rating">Heat rating</a></li>
+  						<li>Extract to your project folder.</li>
+  						<li>
+  							Two js and one css are required
+  							<br>
+  							JS:
+  							<br>
+  							<code>
+							    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"&gt;&lt;/script&gt;
+							    <br>
+								&lt;script type="text/javascript" src="path/to/your/folder/heat-rating.js"&gt;&lt;/script&gt;
+  							</code>
+  							<br>
+  							CSS:
+  							<br>
+  							<code>
+								&lt;link rel="stylesheet" type="text/css" href="path/to/your/folder/heat-rating.css"&gt;
+  							</code>
+  						</li>
+	  					<li>
+	  						And at last, you need to just put HTML code wherever you want heat rating.	
+	  						<br>
+	  						<code>
+								&lt;div class="heat-rating"&gt;
+									<br>
+									&lt;div class="rating-block one" data-value="1.0"&gt;&lt;/div&gt;
+									<br>
+									&lt;div class="rating-block one-half" data-value="1.5"&gt;&lt;/div&gt;
+									<br>
+									&lt;div class="rating-block two" data-value="2.0"&gt;&lt;/div&gt;
+									<br>
+									&lt;div class="rating-block two-half" data-value="2.5"&gt;&lt;/div&gt;
+									<br>
+									&lt;div class="rating-block three" data-value="3.0"&gt;&lt;/div&gt;
+									<br>
+									&lt;div class="rating-block three-half" data-value="3.5"&gt;&lt;/div&gt;
+									<br>
+									&lt;div class="rating-block four" data-value="4.0"&gt;&lt;/div&gt;
+									<br>
+									&lt;div class="rating-block four-half" data-value="4.5"&gt;&lt;/div&gt;
+									<br>
+									&lt;div class="rating-block five" data-value="5.0"&gt;&lt;/div&gt;
+									<br>
+									&lt;div class="ratings"&gt;0.0&lt;/div&gt;
+									<br>
+									&lt;input type="hidden" value="0.0" id="ratings-input"&gt;
+									<br>
+								&lt;/div&gt;
+	  						</code>
+	  					</li>
+	  					<li>Enjoy heating!</li>
+  					</ol>
+  				</p>
+  				<hr>
+  				<center style="margin-bottom: 20px;"><small>Made in India</small></center>
+  			</div>
+  		</div>
+  	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/heat-rating.js"></script>
+  </body>
+</html>
