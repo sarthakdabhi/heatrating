@@ -7,11 +7,14 @@ Extract to your project folder.
 Two js and one css are required 
 JS:
 ##### Code:
+```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script type="text/javascript" src="path/to/your/folder/heat-rating.js"></script> 
+```
 
 CSS:
 ##### Code:
+```html
 <link rel="stylesheet" type="text/css" href="path/to/your/folder/heat-rating.css">
 And at last, you need to just put HTML code wherever you want heat rating.	
 <div class="heat-rating"> 
@@ -27,6 +30,7 @@ And at last, you need to just put HTML code wherever you want heat rating.
 <div class="ratings">0.0</div> 
 <input type="hidden" value="0.0" id="ratings-input"> 
 </div>
+```
 Enjoy heating!
 
 
